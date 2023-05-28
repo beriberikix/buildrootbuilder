@@ -1,8 +1,8 @@
 name: Buildroot builder
 
 on:
-  schedule:
-    - cron: '24 8 * * *'
+#  schedule:
+#    - cron: '24 8 * * *'
   push:
     branches: [ main ]
     tags: [ 'v*.*.*' ]
